@@ -142,18 +142,105 @@ print(resultado)
 * Podemos usar o valor anterior para gerar um novo.
 * Isso é muito utilizado em cálculos acumulativos e análise de dados.
 
+Aula 3 — Entrada de Dados e Interação com o Usuário
+
+Nesta aula começamos a desenvolver programas interativos utilizando o método input().
+
+Até então, os programas apenas exibiam informações na tela.
+Agora eles passam a receber dados digitados pelo usuário e reagir a essas informações.
+
+O método input()
+
+O input() permite capturar dados digitados pelo usuário durante a execução do programa.
+
+Exemplo:
+
+nome = input("Qual é o seu nome? ")
+print("Prazer,", nome)
+
+Aprendizados:
+
+input() sempre retorna uma string (texto).
+
+O valor pode ser armazenado em uma variável.
+
+A variável pode ser reutilizada posteriormente.
+
+Conversão de Tipos
+
+Como o input() retorna texto, aprendemos a converter para número quando necessário:
+
+numero = int(input("Digite um número: "))
+
+Conceito reforçado:
+
+Diferença entre texto e número
+
+Uso de int() para conversão
+
+Exercício — Dobro de um Número
+
+Programa que recebe um número e exibe o dobro:
+
+numero = int(input("Entre com um número: "))
+dobro = numero * 2
+print("O dobro é", dobro)
+
+Conceitos aplicados:
+
+Entrada de dados
+
+Conversão de tipo
+
+Operações matemáticas
+
+Exercício — Raiz Quadrada
+
+Programa que calcula a raiz quadrada de um número inteiro:
+
+numero = int(input("Entre com um número inteiro para calcular a sua raiz quadrada: "))
+raiz = numero ** (1/2)
+print("Raiz quadrada de", numero, "é:", raiz)
+
+Conceitos aplicados:
+
+Exponenciação
+
+Cálculo matemático com dados fornecidos pelo usuário
+
+Exercício — História Interativa
+
+Foi criado um pequeno programa narrativo onde a cada parte da história o usuário deve pressionar Enter para continuar.
+
+Exemplo simplificado:
+
+p1 = "Era uma vez um velho e cansado cachorro no velho oeste em busca do seu dono."
+p2 = "Ao longe, ele vê uma pequena vila com poucas pessoas e muitos cavalos."
+p3 = "Ao chegar na vila, ele vai até a hospedaria local."
+
+print(p1)
+input("Pressione Enter para continuar...")
+
+print(p2)
+input("Pressione Enter para continuar...")
+
+print(p3)
+input("Pressione Enter para continuar...")
+
+Além da narrativa, a história também incluiu interação com o usuário por meio de perguntas e respostas.
+
+Conceitos aplicados:
+
+Organização de texto em variáveis
+
+Uso do input() para pausar execução
+
+Construção de narrativa interativa
+
+Estrutura sequencial de execução
+
 ---
 
-## Conceitos Fundamentais Aprendidos Até Agora
-
- Execução de scripts Python
- Uso de células interativas no VS Code
- Operações matemáticas básicas
- Criação e reatribuição de variáveis
- Armazenamento e atualização de estados
- Organização inicial de código
-
----
 
 ## Objetivo do Repositório
 
@@ -225,4 +312,3 @@ Consumo de APIs
 
 ---
 
-Repositório em constante evolução conforme avanço no curso.

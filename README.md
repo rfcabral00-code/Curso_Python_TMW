@@ -16,7 +16,7 @@ Nesta etapa foi realizada a configuração do ambiente de desenvolvimento:
 
 ## Aula 2 — Primeiros Conceitos em Python
 
-### 🔹 Revisão do "Olá, Mundo"
+### Revisão do "Olá, Mundo"
 
 Primeiro contato com a execução de scripts Python e entendimento da função:
 
@@ -26,7 +26,7 @@ print("Olá, mundo!")
 
 ---
 
-### 🔹 Uso de `# %%` no VS Code
+### Uso de `# %%` no VS Code
 
 Aprendemos a utilizar o marcador:
 
@@ -146,12 +146,12 @@ print(resultado)
 
 ## Conceitos Fundamentais Aprendidos Até Agora
 
-✔ Execução de scripts Python
-✔ Uso de células interativas no VS Code
-✔ Operações matemáticas básicas
-✔ Criação e reatribuição de variáveis
-✔ Armazenamento e atualização de estados
-✔ Organização inicial de código
+ Execução de scripts Python
+ Uso de células interativas no VS Code
+ Operações matemáticas básicas
+ Criação e reatribuição de variáveis
+ Armazenamento e atualização de estados
+ Organização inicial de código
 
 ---
 
@@ -167,7 +167,7 @@ Construir base sólida em Python para aplicação futura em:
 ---
 
 ## Próximos Passos
-Estruturas de Controle
+Estruturas de Controle:
 
 Estruturas condicionais (if, else, elif)
 
@@ -175,7 +175,7 @@ Estruturas de repetição (while, for, break, continue)
 
 Tratamento de exceções (try, except)
 
-Listas e Tuplas
+Listas e Tuplas:
 
 Introdução às listas e suas operações (criação, acesso e modificação)
 
@@ -183,7 +183,7 @@ Funções e métodos de lista (len(), append(), remove(), sort())
 
 Introdução às tuplas e suas características
 
-Dicionários
+Dicionários:
 
 Criação de dicionários
 
@@ -191,7 +191,7 @@ Acesso a valores
 
 Modificação de dados
 
-Funções
+Funções:
 
 Definindo funções em Python
 
@@ -225,4 +225,4 @@ Consumo de APIs
 
 ---
 
- Repositório em constante evolução conforme avanço no curso.
+Repositório em constante evolução conforme avanço no curso.
